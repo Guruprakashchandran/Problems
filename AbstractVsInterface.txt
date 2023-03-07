@@ -1,0 +1,27 @@
+
+	# ABSTRACT
+		
+		1) Any java editision,we can define concrete methods in abstract class.
+		2) Any method and variable declared using abstract keyword.
+			ex - abstract int a; 
+		3) We can create constructor in abstract class.
+		4) we can't achieve multiple inheritance in classes.
+
+		example :
+			class a{}
+			class b{}
+			class c extends a,b{}         //diamond problem	
+	
+	## INTERFACE	
+		
+		1) Before java 8 Edition, We Can't define concrete methods in interface and we can define any methos inside interface must be using default keyword.
+		2) Any method dont declared using abstract keyword.but,interface variable also non access modifier in default and you must define all variable inside a interface. 
+			ex - int a = 10;
+		3) we can't create constructor in interface.
+		4) we can implement multiple interface.
+		
+		example : 
+				
+			interface a{}
+			interface b{}
+			class c implements a,b{}	//it Runs
