@@ -1,0 +1,11 @@
+Array Elements are Sequential Location
+
+	Formula
+		
+		base address + (index * datatypeSize);
+	Ex - 
+		index = 5 datatype = int;
+		1990 + (5 * 4);
+		Answer - 2010.
+
+This formula cant find memory for random locations.So,Array Elements are Sequential Location.
